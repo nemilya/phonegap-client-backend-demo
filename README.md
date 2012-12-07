@@ -52,3 +52,6 @@ Deploy client
 3. Build
 4. Download [*.apk ...]
 5. Install to Android
+
+
+(c) MIT License

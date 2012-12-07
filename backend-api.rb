@@ -1,3 +1,10 @@
+#
+# to start local run in colsole:
+#  ruby backend-api.rb -p 5678
+# where `5678` is port
+# then browse: http://localhost:5678/api/items.json
+#
+
 require 'rubygems'
 require 'sinatra'
 require 'json'
