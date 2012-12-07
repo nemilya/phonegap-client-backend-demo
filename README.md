@@ -6,16 +6,16 @@ Example of PhoneGap mobile application getting data from remove data source by j
 
 Client files:
 
-js/jquery.js - jQuery lib
-config.xml - PhoneGap config file
-index.html - demo client app
+* js/jquery.js - jQuery lib
+* config.xml - PhoneGap config file
+* index.html - demo client app
 
 
 
 Backend files:
 
-backend-api.rb - sinatra app
-config.ru - config file
+* backend-api.rb - sinatra app
+* config.ru - config file
 
 
 Deploy backend
