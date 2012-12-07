@@ -6,7 +6,7 @@
   <script src="js/jquery.js" type="text/javascript"></script>
 
   <script type="text/javascript">
-    var backend = 'http://phonegap-client-backend-demo.cloudfoundry.com/api/items.json___';
+    var backend = 'http://phonegap-client-backend-demo.cloudfoundry.com/api/items.json';
     $(document).ready(function() {
       $('#backend-url').html(backend);
 
@@ -18,9 +18,9 @@
         error: function(xhr, textStatus, errorThrown) {
           alert('xhr.status: '      + xhr.status);
           alert('xhr.responseText: '+ xhr.responseText);
-          alert('$.support.cors: '  + $.support.cors);
           alert('textStatus: '      + textStatus);
           alert('errorThrown: '     + errorThrown);
+          alert('$.support.cors: '  + $.support.cors);
         }
       });
     });
