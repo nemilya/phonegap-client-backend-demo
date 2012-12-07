@@ -10,10 +10,10 @@
     // var backend_url = 'http://localhost:xxxx/api/items.json';
     $(document).ready(function() {
       $('#backend-url').html(backend_url);
-      load_data();
+      load_data_and_show();
     });
 
-    function load_data(){
+    function load_data_and_show(){
       $.ajax({
         type: "GET",
         url: backend_url,
@@ -41,7 +41,7 @@
 </head>
 <body>
 
-<b>Backend url <button onclick="load_data();return false;">Reload</button>:</b>
+<b>Backend url <button onclick="load_data_and_show();return false;">Reload</button>:</b>
   <div id="backend-url"></div>
 
 <br />
