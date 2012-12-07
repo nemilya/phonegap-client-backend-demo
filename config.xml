@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.github.nemilya.phonegap-client-backend-demo"
+	version 	= "0.0.1">
+
+	<name>Phonegap demo</name>
+
+	<description>
+		Phonegap client-backend demo
+	</description>
+
+	<author href="https://github.com/nemilya/"
+		email="nemilya@gmail.com">
+		Ilya Nemihin
+	</author>
+
+  <feature name="http://api.phonegap.com/1.0/network"/>
+
+  <access origin="*" /> 
+</widget>
