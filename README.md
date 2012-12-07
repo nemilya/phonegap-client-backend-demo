@@ -50,4 +50,7 @@ Deploy client
 -------------
 
 1. Create build.phonegap.com acccount
-2. Upload zip file, or link to github account
+2. Upload zip file, or set open-source link to github account
+3. Build
+4. Download [*.apk ...]
+5. Install to Android
