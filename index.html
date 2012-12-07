@@ -28,6 +28,7 @@
     function show_data(data){
       alert('show_data');
       $.each(data, function(entryIndex, item){
+        alert(item.name);
         p = $('<p/>')
         p.html(item.name);
         $('#content').append(p);
