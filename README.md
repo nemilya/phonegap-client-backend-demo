@@ -27,22 +27,20 @@ Deploy backend
 4. Set target/login/pwd
 5. Push application from within folder:
 
-   vmc push phonegap-client-backend-demo
+    vmc push phonegap-client-backend-demo
 
-  Change "phonegap-client-backend-demo" to own, this will be subdomain `phonegap-client-backend-demo`
+Change "phonegap-client-backend-demo" to own, this will be subdomain `phonegap-client-backend-demo`
 
 
-Test:
-
-  http://phonegap-client-backend-demo.cloudfoundry.com/api/items.json
+Test, open in browser: `http://phonegap-client-backend-demo.cloudfoundry.com/api/items.json`
 
 Edit `index.html` and set URL to this backend
 
-  var backend = 'http://phonegap-client-backend-demo.cloudfoundry.com/api/items.json';
+    var backend_url = 'http://phonegap-client-backend-demo.cloudfoundry.com/api/items.json';
 
 For update backend and deploy (where phonegap-client-backend-demo is your name):
 
-  vmc update phonegap-client-backend-demo
+    vmc update phonegap-client-backend-demo
 
 
 
